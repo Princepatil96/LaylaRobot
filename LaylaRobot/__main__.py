@@ -82,7 +82,7 @@ Maintained by @Princepatil96k ❤
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/SONNA_ROBOT?startgroup=true"),
+            text="➕️SONNA KO ADD KARO➕️", url="t.me/SONNA_ROBOT?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="layla_"),
@@ -107,10 +107,10 @@ HELP_STRINGS = """
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`
 Powered by :- [SONNA ROBOT](t.me/Princepatil96k)"""
 
-layla_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
+layla_IMG = ""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Hero](t.me/HEROGAMERS1) \
+ You can support the project [SONNA](t.me/Princepatil96k) \
  Supporting isnt always financial! [AwesomeSupport](t.me/LaylaList) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -368,7 +368,7 @@ def layla_about_callback(update, context):
                  \n❍ Awesome Bots @LaylaList
                  \n❍ Support Group @AwesomeSupport
                  \n❍ Assistant @LaylaAssistant.
-                 \nHere is the [💾Repository](https://github.com/QueenArzoo/LaylaRobot).
+                 \nHere is the [💾Repository](https://t.me//Princepatil96k).
                  \n\nIf you have any question about Layla, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -395,7 +395,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Layla*
+            text=""" Hi..🤗 I'm *SONNA ROBOT*
                  \nHere is the [Source Code](https://github.com/QueenArzoo/LaylaRobot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
